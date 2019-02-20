@@ -10,8 +10,9 @@
 </head>
 <body>
       <h2>Student Information</h2>
-      <form:form method = "POST" action = "/mvcDemo/add">
-         <table>
+      <form:form method = "POST" action = "/food/add">
+      ${student.email} added sucessfully
+         <%-- <table>
             <tr>
                <td><form:label path = "name">Name</form:label></td>
                <td><form:input path = "name" /></td>
@@ -21,7 +22,7 @@
                   <input type = "submit" value = "Submit"/>
                </td>
             </tr>
-         </table>  
+         </table>   --%>
       </form:form>
    </body>
 </html>

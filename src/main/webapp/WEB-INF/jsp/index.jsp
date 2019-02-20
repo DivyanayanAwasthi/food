@@ -96,7 +96,7 @@
 		      		</div>
 			      	<div class="modal-body clearfix">
 
-						 <form:form method = "POST" action = "/mvcDemo/add" id="create-account_form" class="std">
+						 <form:form method = "POST" action = "/food/add" id="create-account_form" class="std">
 							<fieldset>
 								<h3>Create your account</h3>
 								<div class="form_content clearfix">
