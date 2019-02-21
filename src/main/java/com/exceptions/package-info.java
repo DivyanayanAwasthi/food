@@ -5,4 +5,4 @@
  * @author divyanayan.awasthi
  *
  */
-package controllers;
+package com.exceptions;
