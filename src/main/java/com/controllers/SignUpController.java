@@ -25,7 +25,14 @@ public class SignUpController {
 	@RequestMapping(value="/")
 	public ModelAndView sayHello1(ModelMap model) {
 		
-		logger.info("hello");
+		logger.info("sign Up inititated"+model);
+		/*functionality */
+		
+		logger.info("sign up completed");
+		logger.info("info");
+		logger.debug("debug");
+		logger.warn("warning");
+		logger.error("error");
 	      model.addAttribute("message", "Hello Spring MVC Framework!");
 	      return new ModelAndView("index", "command", new Student());
 	}
